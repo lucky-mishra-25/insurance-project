@@ -1,95 +1,58 @@
-🏥 Insurance Cost Analysis & Prediction
+# 🏥 Insurance Cost Analysis & Prediction
 
-This project focuses on analyzing the Insurance Dataset (insurance.csv) and building a machine learning model to predict medical insurance charges based on user attributes such as age, BMI, number of children, smoking status, and region.
+This project analyzes the Insurance dataset (`insurance.csv`) and builds a machine learning model to predict medical insurance charges based on customer information such as age, BMI, number of children, smoking habits, and region.
 
-The project covers data cleaning, exploratory data analysis (EDA), visualization, and predictive modeling.
+The project includes data cleaning, exploratory data analysis (EDA), visualization, and predictive modeling.
 
-📁 Dataset
+---
 
-File: insurance.csv
+## 📁 Dataset
 
-Features:
+**File Name:** insurance.csv  
 
-age – Age of the primary beneficiary
+### Columns Description:
+- **age** – Age of the insured person  
+- **sex** – Gender (male / female)  
+- **bmi** – Body Mass Index  
+- **children** – Number of dependents  
+- **smoker** – Smoking status (yes / no)  
+- **region** – Residential region  
+- **charges** – Medical insurance cost (Target variable)
 
-sex – Gender (male / female)
+---
 
-bmi – Body Mass Index
+## ⚙️ Tools & Technologies
 
-children – Number of dependents
+- Python  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Seaborn  
+- Scikit-learn  
+- Jupyter Notebook / VS Code  
 
-smoker – Smoking status (yes / no)
+---
 
-region – Residential area in the US
+## 🔍 Project Workflow
 
-charges – Medical insurance cost (target variable)
+1. Imported the dataset using Pandas.
+2. Checked dataset structure, null values, and data types.
+3. Cleaned data and handled duplicates.
+4. Performed Exploratory Data Analysis (EDA).
+5. Visualized important patterns and correlations.
+6. Encoded categorical variables.
+7. Split the dataset into training and testing sets.
+8. Built a Machine Learning model using Linear Regression.
+9. Evaluated the model using accuracy metrics.
 
-⚙️ Technologies Used
+---
 
-Python 🐍
+## 📊 Results
 
-Pandas
+- Identified key factors affecting insurance charges.
+- Smoking has a major impact on insurance cost.
+- Model predicts insurance charges with reasonable accuracy.
 
-NumPy
+---
 
-Matplotlib
-
-Seaborn
-
-Scikit-learn
-
-Jupyter Notebook / VS Code
-
-🧪 Project Workflow
-
-Data Loading
-
-Loaded dataset using Pandas.
-
-Checked shape, columns, and data types.
-
-Data Cleaning
-
-Verified missing values.
-
-Removed duplicates (if any).
-
-Encoded categorical variables.
-
-Exploratory Data Analysis (EDA)
-
-Distribution of age, BMI, and charges.
-
-Impact of smoking on insurance charges.
-
-Correlation analysis.
-
-Visualization using bar plots, histograms, and heatmaps.
-
-Feature Engineering
-
-Converted categorical variables into numeric format.
-
-Selected relevant features for model training.
-
-Model Building
-
-Split data into training and testing sets.
-
-Applied regression model (Linear Regression).
-
-Evaluated model using R² score and Mean Absolute Error.
-
-Model Evaluation
-
-Compared predicted vs actual values.
-
-Analyzed model accuracy and performance.
-
-📊 Sample Output
-
-📈 Visualizations showing insurance cost trends
-
-✅ Trained ML model for prediction
-
-🎯 Prediction accuracy metrics
+ur-username/insurance-project.git
